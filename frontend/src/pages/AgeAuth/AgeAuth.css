@@ -1,0 +1,57 @@
+.age-auth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.green-button {
+	background-color: #00a651;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 60%;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+/* a button given the color by argument */
+.green-button:hover {
+	background-color: #00a650c4;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.red-button {
+	background-color: #a60000;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 60%;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+/* a button given the color by argument */
+.red-button:hover {
+	background-color: #a60000c4;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
