@@ -1,0 +1,23 @@
+.shots {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.5rem;
+}
+
+.shots-table {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+
+		gap: 4rem;
+}
+
+.line {
+	/* vertical white line */
+		border: 1px solid white;
+		height: 100%;
+		
+}

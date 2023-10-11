@@ -1,0 +1,28 @@
+.shot {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	justify-content: center;
+	padding: 1rem;
+	width: 30vw;
+}
+
+.shot-name {
+	display: flex;
+	gap: 1rem;
+	font-size: 1.5rem;
+}
+
+.drink-name {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	font-size: 1.5rem;
+}
+
+.drink-subcategory {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 1.2rem;
+}
