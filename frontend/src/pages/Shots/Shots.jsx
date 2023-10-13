@@ -19,7 +19,7 @@ const Shots = () => {
 			<p>LISTA DE SHOTS</p>
 			<div className="shots-table">
 				{/* for each shot in the db, display 10 shots on the left and 10 shots on the right */}
-				<div className="shots-table-column">
+				<div className="shots-table-column-left">
 					{shots.slice(0, 10).map((shot) => (
 						<Shot
 							key={shot.number}
@@ -31,9 +31,10 @@ const Shots = () => {
 					))}
 				</div>
 
-				<div className="line"></div>
+				{/* <div className="line"></div> */}
+				<vr />
 
-				<div className="shots-table-column">
+				<div className="shots-table-column-right">
 					{shots.slice(10).map((shot) => (
 						<Shot
 							key={shot.number}

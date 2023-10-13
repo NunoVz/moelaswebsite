@@ -11,13 +11,24 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-
-		gap: 4rem;
-}
-
-.line {
-	/* vertical white line */
-		border: 1px solid white;
-		height: 100%;
 		
+
+		/* gap: 4rem; */
 }
+
+.shots-table-column-left {
+	border-right: 1px solid white;
+	padding-right: 2rem;
+}
+
+.shots-table-column-right {
+	border-left: 1px solid white;
+	padding-left: 2rem;
+}
+
+/* .line { */
+	/* vertical white line */
+		/* border: 1px solid white; */
+		/* height: 100%; */
+		
+/* } */

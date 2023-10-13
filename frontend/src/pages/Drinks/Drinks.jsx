@@ -16,7 +16,7 @@ const Drink = () => {
 	return (
 		<div className="shots">
 			<div className="shots-table">
-				<div className="shots-table-column">
+				<div className="shots-table-column-left">
 					{/* map the drinks array into a Shot component */}
 					{drinks.map((drink) => (
 						<Shot
@@ -30,7 +30,7 @@ const Drink = () => {
 
 				<div className="line"></div>
 
-				<div className="shots-table-column">
+				<div className="shots-table-column-right">
 					{drinks.map((drink) => (
 						<Shot
 							key={drink.name}
