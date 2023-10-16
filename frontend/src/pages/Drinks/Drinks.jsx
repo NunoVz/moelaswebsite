@@ -14,7 +14,7 @@ const Drink = () => {
 	]
 
 	return (
-		<div className="shots">
+		<div className="drinks" id='precario'>
 			<div className="shots-table">
 				<div className="shots-table-column-left">
 					{/* map the drinks array into a Shot component */}

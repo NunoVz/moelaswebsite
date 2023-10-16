@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem 0;
+	padding: 1rem 0;
 	overflow: hidden;
 
 	position: fixed;
@@ -10,6 +10,8 @@
 	width: 100%;
 	z-index: 10;
 
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-links {

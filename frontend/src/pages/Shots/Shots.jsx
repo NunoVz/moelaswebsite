@@ -15,8 +15,8 @@ const Shots = () => {
 	}));
 
 	return (
-		<div className="shots">
-			<p>LISTA DE SHOTS</p>
+		<div className="shots" id="shots">
+			<h1>LISTA DE SHOTS</h1>
 			<div className="shots-table">
 				{/* for each shot in the db, display 10 shots on the left and 10 shots on the right */}
 				<div className="shots-table-column-left">
