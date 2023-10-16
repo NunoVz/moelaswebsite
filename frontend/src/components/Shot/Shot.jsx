@@ -24,7 +24,7 @@ function Shot(props) {
 					</div>
 
 					<div className="shot-description">
-						<span>{separateCommas(props.description)}</span>
+						<span>{props.description}</span>
 					</div>
 
 				</div>
