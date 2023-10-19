@@ -43,4 +43,13 @@
 
 .moelas_logo {
 	z-index: 5;
+	width: 50vw;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+	.moelas_logo {
+		width: 90vw;
+	}
 }

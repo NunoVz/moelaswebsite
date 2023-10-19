@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import "./Shot.css";
 
@@ -11,9 +12,11 @@ function Shot(props) {
 		result += words[words.length - 1];
 		return result;
 	}
+	
 
 	return (
 		<div>
+			
 			{props.isShot ?
 
 				<div className="shot">
@@ -39,8 +42,8 @@ function Shot(props) {
 					</div>
 
 					<div className="shot-description">
-						{props.subcategories ? props.subcategories.map((subcategory) => (
-							<div className="drink-subcategory">
+						{props.subcategories ? props.subcategories.map((subcategory, index) => (
+							<div key={index} className="drink-subcategory">
 								<span>{subcategory.quantity}</span>
 								<span>{subcategory.price}</span>
 							</div>
@@ -51,7 +54,19 @@ function Shot(props) {
 
 			}
 		</div>
-	)
+	);
 }
+
+Shot.propTypes = {
+	number: PropTypes.number.isRequired,
+	name: PropTypes.string.isRequired,
+	description: PropTypes.string.isRequired,
+	price: PropTypes.string,
+	subcategories: PropTypes.arrayOf(PropTypes.shape({
+		quantity: PropTypes.string.isRequired,
+		price: PropTypes.string.isRequired
+	})),
+	isShot: PropTypes.bool.isRequired
+};
 
 export default Shot;

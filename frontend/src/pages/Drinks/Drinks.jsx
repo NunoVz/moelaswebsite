@@ -1,4 +1,5 @@
 import React from 'react'
+import { useMediaQuery } from 'react-responsive'
 import { Shot } from '../../components'
 
 import './Drinks.css'
@@ -13,11 +14,27 @@ const Drink = () => {
 		{ "name": "Caipirinhas", "subcategories": [{ "quantity": "morango", "price": "1.10" }, { "quantity": "maracuja", "price": "2.00" }] },
 	]
 
-	return (
+	const isMobile = useMediaQuery({ maxWidth: 768 });
+
+	return isMobile ? (
+		<div className="drinks" id='precario'>
+			<div className="shots-table">
+				<div className="shots-table-column">
+					{drinks.map((drink) => (
+						<Shot
+							key={drink.name}
+							name={drink.name}
+							price={drink.price}
+							subcategories={drink.subcategories}
+						/>
+					))}
+				</div>
+			</div>
+		</div>
+	) : (
 		<div className="drinks" id='precario'>
 			<div className="shots-table">
 				<div className="shots-table-column-left">
-					{/* map the drinks array into a Shot component */}
 					{drinks.map((drink) => (
 						<Shot
 							key={drink.name}
