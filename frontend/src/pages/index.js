@@ -3,5 +3,6 @@ import Home from "./Home/Home";
 import Sobre from "./Sobre/Sobre";
 import Shots from "./Shots/Shots";
 import Drinks from "./Drinks/Drinks";
+import Madeby from "./Madeby/Madeby";
 
-export { AgeAuth, Home, Sobre, Shots, Drinks };
+export { AgeAuth, Home, Sobre, Shots, Drinks, Madeby };

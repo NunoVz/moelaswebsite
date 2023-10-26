@@ -18,8 +18,8 @@ const Drink = () => {
 
 	return isMobile ? (
 		<div className="drinks" id='precario'>
-			<div className="shots-table">
-				<div className="shots-table-column">
+			<div className="drinks-table">
+				<div className="drinks-table-column">
 					{drinks.map((drink) => (
 						<Shot
 							key={drink.name}

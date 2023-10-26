@@ -1,5 +1,5 @@
 import { Navbar } from './components';
-import { Home, Sobre, Shots, Drinks } from './pages';
+import { Home, Sobre, Shots, Drinks, Madeby } from './pages';
 
 import './App.css';
 
@@ -9,8 +9,9 @@ function App() {
       <Navbar />
       <Home />
       <Sobre />
-      <Shots />
       <Drinks />
+      <Shots />
+      <Madeby/>
     </div>
   );
 }

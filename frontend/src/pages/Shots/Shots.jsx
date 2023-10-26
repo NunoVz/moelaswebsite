@@ -241,7 +241,7 @@ const Shots = () => {
 			<h1>LISTA DE SHOTS</h1>
 			<div className="shots-table">
 				<div className="shots-table-column">
-					{Object.keys(shots.SHOTS).slice(0, 20).map((shot, index) => (
+					{Object.keys(shots.SHOTS).map((shot, index) => (
 						<Shot
 							key={index}
 							number={index + 1}
