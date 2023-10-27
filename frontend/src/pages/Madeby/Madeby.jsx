@@ -17,12 +17,12 @@ function Madeby() {
 				{/* <span>Redes Sociais</span> */}
 				<div className="madeby-socials-links">
 					<div className="madeby-socials-links-item">
-						<img src={insta} alt="" />
+						<a href="https://www.instagram.com/omoelas/"><img src={insta} alt="" /></a>
 						{/* <a href="https://www.instagram.com/omoelas/">Instagram</a> */}
 					</div>
 					<div className="madeby-socials-links-item">
 						{/* <a href="https://www.facebook.com/profile.php?id=100064256636893">Facebook</a> */}
-						<img src={face} alt="" />
+						<a href="https://www.facebook.com/profile.php?id=100064256636893"><img src={face} alt="" /></a>
 					</div>
 				</div>
 			</div>
