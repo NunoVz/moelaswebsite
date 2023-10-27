@@ -26,6 +26,7 @@ const Drink = () => {
 							name={drink.name}
 							price={drink.price}
 							subcategories={drink.subcategories}
+							isShot={false}
 						/>
 					))}
 				</div>
@@ -41,6 +42,7 @@ const Drink = () => {
 							name={drink.name}
 							price={drink.price}
 							subcategories={drink.subcategories}
+							isShot={false}
 						/>
 					))}
 				</div>
@@ -54,6 +56,7 @@ const Drink = () => {
 							name={drink.name}
 							price={drink.price}
 							subcategories={drink.subcategories}
+							isShot={false}
 						/>
 					))}
 				</div>

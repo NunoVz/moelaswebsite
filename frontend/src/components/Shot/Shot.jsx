@@ -58,9 +58,9 @@ function Shot(props) {
 }
 
 Shot.propTypes = {
-	number: PropTypes.number.isRequired,
+	number: PropTypes.number,
 	name: PropTypes.string.isRequired,
-	description: PropTypes.string.isRequired,
+	description: PropTypes.string,
 	price: PropTypes.string,
 	subcategories: PropTypes.arrayOf(PropTypes.shape({
 		quantity: PropTypes.string.isRequired,
