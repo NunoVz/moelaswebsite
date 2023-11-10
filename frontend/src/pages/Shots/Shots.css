@@ -59,6 +59,40 @@
 	font-size: 1.2rem;
 }
 
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 2rem 0 0 0;
+	list-style: none;
+	gap: 1rem;
+}
+
+.page-active {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.page-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.pagination-navigation {
+	cursor: pointer;
+	font-size: 2rem;
+
+	transition: 0.5s ease;
+}
+
+.pagination-navigation:hover {
+	transform: scale(1.2);
+}
+
+
 /* mobile */
 
 @media screen and (max-width: 430px) {

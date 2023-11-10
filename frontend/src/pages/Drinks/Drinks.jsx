@@ -1,10 +1,10 @@
-import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Shot } from '../../components'
 
 import './Drinks.css'
 
 const Drink = () => {
+	// todo - fetch from backend instead of hardcoding
 	const drinks = [
 		{ "name": "Shots", "price": "1.10" },
 		{ "name": "Finos", "subcategories": [{ "quantity": "200ml", "price": "1.10" }, { "quantity": "500ml", "price": "2.00" }] },

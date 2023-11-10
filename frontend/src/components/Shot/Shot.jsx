@@ -1,19 +1,8 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 import "./Shot.css";
 
 function Shot(props) {
-	function separateCommas(words) {
-		let result = '';
-		for (let i = 0; i < words.length - 1; i++) {
-			result += words[i] + ', ';
-		}
-		result += words[words.length - 1];
-		return result;
-	}
-	
-
 	return (
 		<div>
 			

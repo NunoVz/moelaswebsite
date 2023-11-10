@@ -1,5 +1,6 @@
-import React from 'react'
 import './AgeAuth.css'
+
+// ? I dont think this will be used
 
 const AgeAuth = () => {
 	return (
