@@ -66,7 +66,7 @@
 	margin: 0;
 	padding: 2rem 0 0 0;
 	list-style: none;
-	gap: 1rem;
+	/* gap: 1rem; */
 }
 
 .page-active {
@@ -79,17 +79,13 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	padding: 0.6rem;
+
+	transition: 0.3s ease-in-out;
 }
 
-.pagination-navigation {
-	cursor: pointer;
-	font-size: 2rem;
-
-	transition: 0.5s ease;
-}
-
-.pagination-navigation:hover {
-	transform: scale(1.2);
+.page-link:hover {
+	filter: invert(0.5);
 }
 
 

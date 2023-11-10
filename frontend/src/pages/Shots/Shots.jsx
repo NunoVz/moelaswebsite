@@ -10,7 +10,7 @@ import right from "../../images/chevron-right-solid.svg";
 
 import "./Shots.css";
 
-function Shots({ itemsPerPage }) {
+export default function Shots({ itemsPerPage }) {
 	const [shots] = React.useState(ShotsJSON);
 
 	// console.log('shots: ' + Object.keys(shots));
@@ -35,10 +35,8 @@ function Shots({ itemsPerPage }) {
 
 	const isMobile = useMediaQuery({ maxWidth: 768 });
 
-	// console log current items
-	console.log(currentItems);
-
 	return !isMobile ? (
+		// Desktop
 		<div className="shots" id="shots">
 			<h1>LISTA DE SHOTS</h1>
 			<div className="shots-table">
@@ -53,7 +51,6 @@ function Shots({ itemsPerPage }) {
 						/>
 					))}
 				</div>
-
 				<div className="shots-table-column-right">
 					{currentItems.slice(itemsPerPage/2, itemsPerPage).map((shot, index) => (
 						<Shot
@@ -80,17 +77,18 @@ function Shots({ itemsPerPage }) {
 					pageClassName={"page-item"}
 					activeClassName={"page-active"}
 
-					disabledClassName={"disabled"}
 					pageLinkClassName={"page-link"}
-					previousClassName={"pagination-navigation"}
-					nextClassName={"pagination-navigation"}
-					previousLinkClassName={"page-link"}
 					nextLinkClassName={"page-link"}
-					breakLinkClassName={"page-link"}
+					previousLinkClassName={"page-link"}
+
+					// nextClassName={"pagination-navigation"}
+					// previousClassName={"pagination-navigation"}
+
 				/>
 			</div>
 		</div>
 	) : (
+		// Mobile
 		<div className="shots" id="shots">
 			<h1>LISTA DE SHOTS</h1>
 			<div className="shots-table">
@@ -108,10 +106,8 @@ function Shots({ itemsPerPage }) {
 			</div>
 		</div>
 	);
-};
+}
 
 Shots.propTypes = {
 	itemsPerPage: PropTypes.number
 };
-
-export default Shots;

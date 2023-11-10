@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import "./Shot.css";
 
-function Shot(props) {
+export default function Shot(props) {
 	return (
 		<div>
 			
@@ -57,5 +57,3 @@ Shot.propTypes = {
 	})),
 	isShot: PropTypes.bool.isRequired
 };
-
-export default Shot;

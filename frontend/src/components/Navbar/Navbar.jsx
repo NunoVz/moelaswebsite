@@ -2,7 +2,7 @@ import { useMediaQuery } from 'react-responsive'
 
 import './Navbar.css'
 
-function Navbar() {
+export default function Navbar() {
 	const isMobile = useMediaQuery({ maxWidth: 768 })
 
 	return isMobile ? (null) : (
@@ -16,5 +16,3 @@ function Navbar() {
 		</div >
 	);
 }
-
-export default Navbar

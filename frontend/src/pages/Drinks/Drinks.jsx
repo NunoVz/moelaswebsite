@@ -3,7 +3,7 @@ import { Shot } from '../../components'
 
 import './Drinks.css'
 
-const Drink = () => {
+export default function Drinks() {
 	// todo - fetch from backend instead of hardcoding
 	const drinks = [
 		{ "name": "Shots", "price": "1.10" },
@@ -64,5 +64,3 @@ const Drink = () => {
 		</div>
 	)
 }
-
-export default Drink

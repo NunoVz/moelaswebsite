@@ -2,7 +2,7 @@ import logo from '../../images/logo.jpg'
 
 import './Home.css'
 
-const Home = () => {
+export default function Home() {
 	return (
 		<div className="home">
 			<div className="bg-image"></div>
@@ -10,5 +10,3 @@ const Home = () => {
 		</div>
 	)
 }
-
-export default Home

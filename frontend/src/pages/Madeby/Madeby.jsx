@@ -1,11 +1,9 @@
-// import React from 'react'
-// import { FaInstagramSquare } from 'react-icons/fa'
 import insta from '../../images/instagram.svg'
 import face from '../../images/facebook.svg'
 
 import './Madeby.css'
 
-function Madeby() {
+export default function Madeby() {
 	return (
 		<div className='madeby'>
 			<div className="madeby-contact">
@@ -39,5 +37,3 @@ function Madeby() {
 		</div>
 	)
 }
-
-export default Madeby

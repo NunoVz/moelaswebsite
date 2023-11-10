@@ -1,4 +1,3 @@
-import AgeAuth from "./AgeAuth/AgeAuth";
 import Home from "./Home/Home";
 import Sobre from "./Sobre/Sobre";
 import Shots from "./Shots/Shots";
@@ -7,4 +6,4 @@ import Madeby from "./Madeby/Madeby";
 import ErrorPage from "./ErrorPage/ErrorPage";
 import LongDrinks from "./LongDrinks/LongDrinks";
 
-export { AgeAuth, Home, Sobre, Shots, Drinks, Madeby, ErrorPage, LongDrinks };
+export { Home, Sobre, Shots, Drinks, Madeby, ErrorPage, LongDrinks };
