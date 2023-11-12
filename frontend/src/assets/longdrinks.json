@@ -1,0 +1,957 @@
+[
+	{
+		"name": "Tequilla Sunrise",
+		"price": "2.50 €",
+		"ingredients": [
+			"tequila",
+			"sumo laranja",
+			"grenadine"
+		]
+	},
+	{
+		"name": "White Lady",
+		"price": "2.50 €",
+		"ingredients": [
+			"gin",
+			"sumo limão",
+			"triple sec"
+		]
+	},
+	{
+		"name": "Blue Lady",
+		"price": "2.50 €",
+		"ingredients": [
+			"gin",
+			"sumo limão",
+			"blue coração"
+		]
+	},
+	{
+		"name": "Pink Lady",
+		"price": "0.50 €",
+		"ingredients": [
+			"gin",
+			"sumo limão",
+			"grenadine"
+		]
+	},
+	{
+		"name": "Galão",
+		"price": "2.80 €",
+		"ingredients": [
+			"café",
+			"whisky",
+			"licor creme whisky"
+		]
+	},
+	{
+		"name": "Black Russian",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"licor café"
+		]
+	},
+	{
+		"name": "White Russian",
+		"price": "2.60 €",
+		"ingredients": [
+			"vodka",
+			"licor café",
+			"natas"
+		]
+	},
+	{
+		"name": "Pink Bacardi",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"sumo limão",
+			"grenadine"
+		]
+	},
+	{
+		"name": "Gin And It",
+		"price": "2.50 €",
+		"ingredients": [
+			"gin",
+			"martini rosso"
+		]
+	},
+	{
+		"name": "Vodka And It",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"martini rosso"
+		]
+	},
+	{
+		"name": "Tequilla And It",
+		"price": "2.50 €",
+		"ingredients": [
+			"tequila",
+			"martini rosso"
+		]
+	},
+	{
+		"name": "Trombadinha",
+		"price": "2.50 €",
+		"ingredients": [
+			"whisky",
+			"licor creme whisky",
+			"batida côco"
+		]
+	},
+	{
+		"name": "Alexander No. 1",
+		"price": "2.60 €",
+		"ingredients": [
+			"brandy",
+			"licor cacau",
+			"natas"
+		]
+	},
+	{
+		"name": "Alexander No. 2",
+		"price": "2.60 €",
+		"ingredients": [
+			"gin",
+			"licor cacau",
+			"natas"
+		]
+	},
+	{
+		"name": "Alexander Sister",
+		"price": "2.60 €",
+		"ingredients": [
+			"gin",
+			"licor menta",
+			"natas"
+		]
+	},
+	{
+		"name": "Mint Julep",
+		"price": "3.00 €",
+		"ingredients": [
+			"Whisky Bourbon",
+			"Hortelã",
+			"açúcar",
+			"água"
+		]
+	},
+	{
+		"name": "Porto Flip",
+		"price": "2.50 €",
+		"ingredients": [
+			"vinho do porto",
+			"gema ovo",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Pina Colada",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"batida côco",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Ipanama",
+		"price": "2.50 €",
+		"ingredients": [
+			"batida côco",
+			"menta"
+		]
+	},
+	{
+		"name": "Brazillian Night",
+		"price": "2.50 €",
+		"ingredients": [
+			"batida côco",
+			"blue coração",
+			"vodka"
+		]
+	},
+	{
+		"name": "Moranguito",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"batida côco",
+			"groselha"
+		]
+	},
+	{
+		"name": "Bacardi Presidente",
+		"price": "2.50 €",
+		"ingredients": [
+			"bacardi",
+			"martini rosso",
+			"triple sec"
+		]
+	},
+	{
+		"name": "Laranja Mecânica",
+		"price": "2.75 €",
+		"ingredients": [
+			"vodka",
+			"absinto",
+			"safari",
+			"sumo laranja"
+		]
+	},
+	{
+		"name": "T.G.V.",
+		"price": "2.75 €",
+		"ingredients": [
+			"tequilla",
+			"gin",
+			"vodka"
+		]
+	},
+	{
+		"name": "Brinca na Areia",
+		"price": "2.50 €",
+		"ingredients": [
+			"pisang",
+			"malibu",
+			"grenadine",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Pink Frozen",
+		"price": "2.80 €",
+		"ingredients": [
+			"Vodka",
+			"Campari",
+			"Sumo Laranja"
+		]
+	},
+	{
+		"name": "Goldilocks",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"Malibu",
+			"sumo laranja",
+			"sumo ananas"
+		]
+	},
+	{
+		"name": "Speedy Gonzalez",
+		"price": "2.60 €",
+		"ingredients": [
+			"tequila",
+			"pisang",
+			"blue coração",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Scotsh Sour",
+		"price": "2.50 €",
+		"ingredients": [
+			"whisky",
+			"xarope açúcar",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Gin Sour",
+		"price": "2.50 €",
+		"ingredients": [
+			"gin",
+			"xarope açúcar",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Vodka Sour",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"xarope açúcar",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Rum Sour",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"xarope açúcar",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Brandy Sour",
+		"price": "2.50 €",
+		"ingredients": [
+			"brandy",
+			"xarope açúcar",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Moscow Mule",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"lime juice",
+			"ginger ale"
+		]
+	},
+	{
+		"name": "Moscow Mule Especial",
+		"price": "3.50 €",
+		"ingredients": [
+			"absolut citron",
+			"lime juice",
+			"ginger ale"
+		]
+	},
+	{
+		"name": "Horses Neck",
+		"price": "2.50 €",
+		"ingredients": [
+			"limão",
+			"brandy",
+			"ginger ale"
+		]
+	},
+	{
+		"name": "Licor Creme Whisky C/ Natas",
+		"price": "2.60 €",
+		"ingredients": [
+			"licor creme whisky",
+			"natas"
+		]
+	},
+	{
+		"name": "Harvey Wallbanger",
+		"price": "2.60 €",
+		"ingredients": [
+			"vodka",
+			"galliano",
+			"sumo laranja"
+		]
+	},
+	{
+		"name": "Church 1",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"malibu",
+			"blue coração",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Church 2",
+		"price": "2.50 €",
+		"ingredients": [
+			"gin",
+			"pisang",
+			"natas",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Escurinho",
+		"price": "2.30 €",
+		"ingredients": [
+			"licor creme whisky",
+			"licor café"
+		]
+	},
+	{
+		"name": "Escurinho C/ Natas",
+		"price": "2.50 €",
+		"ingredients": [
+			"creme whisky",
+			"licor café",
+			"natas"
+		]
+	},
+	{
+		"name": "Melonball",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"licor de melão",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Sex On The Beach",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"licor pêssego",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Escorpião",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka melão",
+			"licor creme whisky"
+		]
+	},
+	{
+		"name": "Kamikase Americano",
+		"price": "2.50 €",
+		"ingredients": [
+			"sumo lima",
+			"vodka",
+			"triple sec"
+		]
+	},
+	{
+		"name": "Orgasm",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"amareto",
+			"licor creme whisky"
+		]
+	},
+	{
+		"name": "Bi/xana",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"triple sec",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Apple Pie",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"sumo maçã",
+			"canela"
+		]
+	},
+	{
+		"name": "Strawberry Pie",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"sumo morango",
+			"canela"
+		]
+	},
+	{
+		"name": "Banana Mama",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"batida côco",
+			"sumo ananás",
+			"grenadine"
+		]
+	},
+	{
+		"name": "Banana Papa",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"batida côco",
+			"sumo ananás",
+			"licor menta"
+		]
+	},
+	{
+		"name": "Vinho do Porto Temperado",
+		"price": "2.50 €",
+		"ingredients": [
+			"triple sec",
+			"menta",
+			"açúcar",
+			"vinho do porto"
+		]
+	},
+	{
+		"name": "Aquarius",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"blue coração",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Blue Lagoon",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"blue coração",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Red Lagoon",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"xarope morango",
+			"gasosa"
+		]
+	},
+	{
+		"name": "T.N.T",
+		"price": "2.50 €",
+		"ingredients": [
+			"brandy",
+			"bagaço",
+			"poncha"
+		]
+	},
+	{
+		"name": "San Francisco",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"licor banana",
+			"sumo laranja",
+			"grenadine"
+		]
+	},
+	{
+		"name": "Caloiro",
+		"price": "2.80 €",
+		"ingredients": [
+			"gin",
+			"vodka",
+			"tequila",
+			"rum",
+			"cola",
+			"sumo limão"
+		]
+	},
+	{
+		"name": "Caloira",
+		"price": "2.60 €",
+		"ingredients": [
+			"anis",
+			"vodka",
+			"blue coração",
+			"batida côco"
+		]
+	},
+	{
+		"name": "Safari C/ Gold Strike",
+		"price": "2.60 €",
+		"ingredients": [
+			"safari",
+			"gold strike"
+		]
+	},
+	{
+		"name": "Chichi do Cocas",
+		"price": "2.50 €",
+		"ingredients": [
+			"brandy",
+			"amêndoa amarga"
+		]
+	},
+	{
+		"name": "Safado",
+		"price": "2.50 €",
+		"ingredients": [
+			"safari",
+			"malibu"
+		]
+	},
+	{
+		"name": "EXPO 98",
+		"price": "2.50 €",
+		"ingredients": [
+			"natas",
+			"gin",
+			"blue coração",
+			"licor pêssego",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Golden Vodka",
+		"price": "2.80 €",
+		"ingredients": [
+			"vodka",
+			"gold strike",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Dragon Ball",
+		"price": "3.00 €",
+		"ingredients": [
+			"absinto",
+			"gold strike"
+		]
+	},
+	{
+		"name": "Dragon Ball ZZZ",
+		"price": "3.00 €",
+		"ingredients": [
+			"absinto",
+			"gold strike",
+			"vodka"
+		]
+	},
+	{
+		"name": "Dragon Ball GT",
+		"price": "3.00 €",
+		"ingredients": [
+			"absinto",
+			"gold strike",
+			"groselha"
+		]
+	},
+	{
+		"name": "Exotic",
+		"price": "2.60 €",
+		"ingredients": [
+			"vodka",
+			"safari"
+		]
+	},
+	{
+		"name": "Cerebro",
+		"price": "2.50 €",
+		"ingredients": [
+			"licor pêssego",
+			"licor whisky",
+			"groselha"
+		]
+	},
+	{
+		"name": "African Safari",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"safari",
+			"blue coração",
+			"7-up"
+		]
+	},
+	{
+		"name": "Green Peace",
+		"price": "2.80 €",
+		"ingredients": [
+			"absinto",
+			"pisang",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Strip",
+		"price": "2.80 €",
+		"ingredients": [
+			"vodka",
+			"malibu",
+			"grenadine",
+			"licor chocolate"
+		]
+	},
+	{
+		"name": "Chocolate Coco",
+		"price": "2.60 €",
+		"ingredients": [
+			"rum",
+			"malibu",
+			"licor chocolate",
+			"sumo limão",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Manhattan",
+		"price": "3.00 €",
+		"ingredients": [
+			"whisky bourbon",
+			"martini rosso",
+			"angostura bitters"
+		]
+	},
+	{
+		"name": "Barbara",
+		"price": "2.60 €",
+		"ingredients": [
+			"vodka",
+			"licor cacau",
+			"natas"
+		]
+	},
+	{
+		"name": "Ninitchka",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"sumo limão",
+			"licor cacau"
+		]
+	},
+	{
+		"name": "Zapata",
+		"price": "2.50 €",
+		"ingredients": [
+			"tequila",
+			"licor café",
+			"triple sec"
+		]
+	},
+	{
+		"name": "Diablo",
+		"price": "2.50 €",
+		"ingredients": [
+			"tequila",
+			"creme cassis",
+			"água tónica"
+		]
+	},
+	{
+		"name": "Torreon",
+		"price": "2.60 €",
+		"ingredients": [
+			"tequila",
+			"natas",
+			"licor chocolate"
+		]
+	},
+	{
+		"name": "Amnésia",
+		"price": "3.00 €",
+		"ingredients": [
+			"absinto",
+			"licor menta"
+		]
+	},
+	{
+		"name": "Cassandra",
+		"price": "2.80 €",
+		"ingredients": [
+			"safari",
+			"licor pêssego",
+			"sumo maracujá",
+			"xarope morango",
+			"água tónica"
+		]
+	},
+	{
+		"name": "Passion-Fruit Cocktail",
+		"price": "2.60 €",
+		"ingredients": [
+			"natas",
+			"gin",
+			"licor maracujá",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Cai Bem",
+		"price": "2.30 €",
+		"ingredients": [
+			"ginginha",
+			"gasosa"
+		]
+	},
+	{
+		"name": "Caipirinha",
+		"price": "3.00 €",
+		"ingredients": [
+			"aguardente cana",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Caipiróska",
+		"price": "3.00 €",
+		"ingredients": [
+			"vodka",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Caipiríssima",
+		"price": "3.00 €",
+		"ingredients": [
+			"rum",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Count Eight",
+		"price": "3.00 €",
+		"ingredients": [
+			"rum",
+			"licor maracujá",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Caipibú",
+		"price": "3.00 €",
+		"ingredients": [
+			"aguardente cana",
+			"malibu",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Caipimel",
+		"price": "3.00 €",
+		"ingredients": [
+			"brandimel",
+			"lima"
+		]
+	},
+	{
+		"name": "Caipimartini",
+		"price": "3.00 €",
+		"ingredients": [
+			"martini",
+			"lima",
+			"açúcar"
+		]
+	},
+	{
+		"name": "Bangkok",
+		"price": "2.00 €",
+		"ingredients": [
+			"martini branco",
+			"blue coração",
+			"cerveja"
+		]
+	},
+	{
+		"name": "Jamaica Green",
+		"price": "2.50 €",
+		"ingredients": [
+			"rum",
+			"sumo limão",
+			"xarope açúcar",
+			"licor menta"
+		]
+	},
+	{
+		"name": "ALF",
+		"price": "2.50 €",
+		"ingredients": [
+			"ginginha",
+			"sumo ananás",
+			"sumo lima"
+		]
+	},
+	{
+		"name": "Por do Sol Coimbra",
+		"price": "2.75 €",
+		"ingredients": [
+			"vodka",
+			"safari",
+			"malibu",
+			"groselha",
+			"sumo laranja"
+		]
+	},
+	{
+		"name": "Negroni",
+		"price": "3.00 €",
+		"ingredients": [
+			"gin",
+			"campari",
+			"martini rosso"
+		]
+	},
+	{
+		"name": "Beijo na Boca",
+		"price": "2.50 €",
+		"ingredients": [
+			"vodka",
+			"licor pêssego",
+			"sumo laranja",
+			"groselha"
+		]
+	},
+	{
+		"name": "Dika Sour",
+		"price": "2.60 €",
+		"ingredients": [
+			"rum",
+			"vodka preta",
+			"sumo maracujá",
+			"sumo laranja"
+		]
+	},
+	{
+		"name": "Darth Vader",
+		"price": "2.75 €",
+		"ingredients": [
+			"vodka preta",
+			"licor pêssego",
+			"sumo laranja",
+			"natas"
+		]
+	},
+	{
+		"name": "Brave Bull",
+		"price": "2.50 €",
+		"ingredients": [
+			"tequila",
+			"licor café"
+		]
+	},
+	{
+		"name": "Doblete",
+		"price": "2.75 €",
+		"ingredients": [
+			"rum",
+			"pisang",
+			"licor kiwi",
+			"sumo laranja"
+		]
+	},
+	{
+		"name": "Mai Tai",
+		"price": "2.75 €",
+		"ingredients": [
+			"rum branco",
+			"rum escuro",
+			"triple sec",
+			"sumo lima",
+			"grenadine",
+			"sumo ananás"
+		]
+	},
+	{
+		"name": "Green Coconut",
+		"price": "2.60 €",
+		"ingredients": [
+			"pisang",
+			"licor coco",
+			"sumo ananas"
+		]
+	},
+	{
+		"name": "Ta`se Bem",
+		"price": "2.20 €",
+		"ingredients": [
+			"vodka Pêssego",
+			"Vodka Melão",
+			"7-UP"
+		]
+	}
+]

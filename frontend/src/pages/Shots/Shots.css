@@ -88,6 +88,33 @@
 	filter: invert(0.5);
 }
 
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.shots-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+	font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  transition: border-color 0.3s ease-in-out;
+	background-color: var(--color-background);
+	color: white;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
 
 /* mobile */
 
@@ -109,8 +136,27 @@
 	.drinks {
 		margin: 2rem;
 	}
+
+	input[type="text"] {
+		width: 90%;
+	}
+
+	.page-link {
+		padding: 0.3rem;
+	}
+
+	.nav-item img{
+		width: 1rem;
+	}
 }
 
+@media screen and (max-width: 680px) {
+	.shots-header {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
 
 @media screen and (max-width: 768px) {
 	.shots {
