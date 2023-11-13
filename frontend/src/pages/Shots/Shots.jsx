@@ -26,7 +26,7 @@ export default function Shots() {
 	const [shots] = React.useState(ShotsJSON);
 	const [itemOffset, setItemOffset] = React.useState(0);
 	const [searchTerm, setSearchTerm] = React.useState("");
-	const [filteredShots, setFilteredShots] = React.useState(Object.keys(shots));
+	const [filteredShots, setFilteredShots] = React.useState(Object.values(shots));
 
 
 	const endOffset = itemOffset + itemsPerPage;
@@ -62,9 +62,9 @@ export default function Shots() {
 
 		setSearchTerm(term);
 
-		const filtered = Object.keys(shots).filter((shot) => {
-			const shotName = normalizeString(shot);
-			const shotIngredients = normalizeString(shots[shot]);
+		const filtered = shots.filter((shot) => {
+			const shotName = normalizeString(shot.name);
+			const shotIngredients = normalizeString(shot.ingredients.join(', '));
 			return shotName.includes(term) || shotIngredients.includes(term);
 		});
 
@@ -92,8 +92,8 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + 1}
-							name={shot}
-							description={shots[shot]}
+							name={shot.name}
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
 							isShot={true}
 						/>
 					))}
@@ -103,8 +103,8 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + itemsPerPage / 2 + 1}
-							name={shot}
-							description={shots[shot]}
+							name={shot.name}
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
 							isShot={true}
 						/>
 					))}
@@ -150,8 +150,8 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + 1}
-							name={shot}
-							description={shots[shot]}
+							name={shot.name}
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
 							isShot={true}
 						/>
 					))}
