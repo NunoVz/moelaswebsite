@@ -38,13 +38,6 @@
 	font-size: 1.5rem;
 }
 
-.drink-name {
-	display: flex;
-	justify-content: space-between;
-	gap: 1rem;
-	font-size: 1.5rem;
-}
-
 .drinks-table {
 	display: flex;
 	align-items: stretch;

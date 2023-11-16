@@ -2,19 +2,18 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import ReactPaginate from "react-paginate";
-import PropTypes from "prop-types";
 
 // Local imports
 import { Shot } from "../../components";
-import LongDrinksJSON from '../../assets/longdrinks.json'
+import ShotsJSON from '../../assets/longdrinks.json'
 import left from "../../images/chevron-left-solid.svg";
 import right from "../../images/chevron-right-solid.svg";
 
-import "./LongDrinks.css";
+import "../Shots/Shots.css";
 
-// TODO: Make the index of shots persistent when the user searches for something
+// TODO: Make the index of longdrinks persistent when the user searches for something
 
-export default function Shots() {
+export default function LongDrinks() {
 	const isMobile = useMediaQuery({ maxWidth: 768 });
 
 	var itemsPerPage = 14;
@@ -23,10 +22,10 @@ export default function Shots() {
 		itemsPerPage = itemsPerPage / 2;
 	}
 
-	const [shots] = React.useState(LongDrinksJSON);
+	const [shots] = React.useState(ShotsJSON);
 	const [itemOffset, setItemOffset] = React.useState(0);
 	const [searchTerm, setSearchTerm] = React.useState("");
-	const [filteredShots, setFilteredShots] = React.useState(Object.keys(shots));
+	const [filteredShots, setFilteredShots] = React.useState(Object.values(shots));
 
 
 	const endOffset = itemOffset + itemsPerPage;
@@ -62,9 +61,9 @@ export default function Shots() {
 
 		setSearchTerm(term);
 
-		const filtered = Object.keys(shots).filter((shot) => {
-			const shotName = normalizeString(shot);
-			const shotIngredients = normalizeString(shots[shot]);
+		const filtered = shots.filter((shot) => {
+			const shotName = normalizeString(shot.name);
+			const shotIngredients = normalizeString(shot.ingredients.join(', '));
 			return shotName.includes(term) || shotIngredients.includes(term);
 		});
 
@@ -92,9 +91,10 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + 1}
-							name={shot}
-							description={shots[shot]}
-							isShot={true}
+							name={shot.name}
+							price={shot.price}
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
+							isShot={false}
 						/>
 					))}
 				</div>
@@ -103,9 +103,10 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + itemsPerPage / 2 + 1}
-							name={shot}
-							description={shots[shot]}
-							isShot={true}
+							name={shot.name}
+							price={shot.price}
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
+							isShot={false}
 						/>
 					))}
 				</div>
@@ -150,9 +151,10 @@ export default function Shots() {
 						<Shot
 							key={index}
 							number={index + itemOffset + 1}
-							name={shot}
-							description={shots[shot]}
-							isShot={true}
+							name={shot.name}
+							price={shot.price}	
+							description={Array.isArray(shot.ingredients) ? shot.ingredients.join(', ') : ''}
+							isShot={false}
 						/>
 					))}
 				</div>
@@ -182,7 +184,3 @@ export default function Shots() {
 		</div>
 	);
 }
-
-Shots.propTypes = {
-	itemsPerPage: PropTypes.number
-};

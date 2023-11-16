@@ -3,47 +3,38 @@ import PropTypes from "prop-types";
 import "./Shot.css";
 
 export default function Shot(props) {
-	return (
+	return props.isShot ? (
+		// * This is a shot
 		<div>
-			
-			{props.isShot ?
-
-				<div className="shot">
-
-					<div className="shot-name">
+			<div className="shot">
+				<div className="shot-name">
+					<span>{props.number}.</span>
+					<span style={{ fontWeight: 'bold' }}>{props.name}</span>
+				</div>
+				<div className="shot-description">
+					<span>{props.description}</span>
+				</div>
+			</div>
+		</div>
+	) : (
+		// * This is a long drink
+		<div>
+			<div className="shot">
+				<div className="drink-name">
+					<div className="drink-left">
 						<span>{props.number}.</span>
 						<span style={{ fontWeight: 'bold' }}>{props.name}</span>
 					</div>
-
-					<div className="shot-description">
-						<span>{props.description}</span>
+					<div className="drink-right">
+						<span>{props.price}</span>
 					</div>
-
 				</div>
-
-				:
-
-				<div className="shot">
-
-					<div className="drink-name">
-						<span style={{ fontWeight: 'bold' }}>{props.name}</span>
-						{props.price ? <span>{props.price}</span> : null}
-					</div>
-
-					<div className="shot-description">
-						{props.subcategories ? props.subcategories.map((subcategory, index) => (
-							<div key={index} className="drink-subcategory">
-								<span>{subcategory.quantity}</span>
-								<span>{subcategory.price}</span>
-							</div>
-						)) : null}
-					</div>
-
+				<div className="shot-description">
+					<span>{props.description}</span>
 				</div>
-
-			}
+			</div>
 		</div>
-	);
+	)
 }
 
 Shot.propTypes = {
