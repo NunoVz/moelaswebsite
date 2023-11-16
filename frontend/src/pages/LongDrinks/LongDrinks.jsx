@@ -73,7 +73,7 @@ export default function LongDrinks() {
 
 	return !isMobile ? (
 		// * Desktop
-		<div className="shots" id="shots">
+		<div className="shots" id="longdrinks">
 			<div className="shots-header">
 				<h1>LISTA DE LONG DRINKS</h1>
 				<div className="search-bar">
@@ -133,7 +133,7 @@ export default function LongDrinks() {
 		</div>
 	) : (
 		// * Mobile
-		<div className="shots" id="shots">
+		<div className="shots" id="longdrinks">
 			<div className="shots-header">
 				<h1>LISTA DE LONG DRINKS</h1>
 				<div className="search-bar">
