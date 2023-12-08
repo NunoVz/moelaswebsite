@@ -28,6 +28,7 @@
 
 .drink-right span {
 	width: max-content;
+	text-wrap: nowrap;
 }
 
 @media screen and (max-width: 430px) {

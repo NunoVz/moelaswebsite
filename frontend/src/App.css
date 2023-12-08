@@ -14,10 +14,14 @@ body {
   color: #fff;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
 	display: flex;
 	flex-direction: column;
-	gap: 5rem;
+	/* gap: 5rem; */
 }
 
 .center-row {
