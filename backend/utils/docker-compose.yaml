@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  db:
+    image: mongo:6.0.13
+    container_name: moelas-db
+    hostname: db
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - 27020:${MONGO_PORT}
+    volumes:
+      - ./data:/data/db
